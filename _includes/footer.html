@@ -1,0 +1,24 @@
+<footer>
+  <div class="wolken"></div>
+  <div class="wrapper"><p>© 2019 In & Uit — Ademtraining, Coaching en Persoonlijke ontwikkeling</p></div>
+</footer>
+<script>
+  //$(".content").fitVids();
+  $("#header-button").click(function(e) {
+    $(this).toggleClass("hamburger-open");
+    $('nav').toggleClass("active");
+    $('#close').toggleClass("active");
+    e.preventDefault();
+  });
+  $("#close").click(function(e) {
+    $("#header-button").toggleClass("hamburger-open");
+    $('nav').toggleClass("active");
+    $('#close').toggleClass("active");
+    e.preventDefault();
+  });
+  $('.content p').each(function(i){
+		if (($(this).find('img').length) && (!$.trim($(this).text()).length))  {
+			$(this).addClass('img-only');
+		}
+	});
+</script>

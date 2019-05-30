@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+  <div class="page">
+    <section class="wrapper content">
+      {% if page.cover-image %}<img src="{{ page.cover-image }}">{% endif %}
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </div>
+  <style>
+    nav .pages a.{{ page.permalink }}::before {
+      content: "›";
+      display: inline-block;
+      margin-right: .5em;
+    }
+  </style>
+  </body>
+</html>

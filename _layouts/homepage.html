@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+    <div class="homepage">
+      <section class="ademhaling">
+        <div class="wrapper">
+          <div class="ratio">
+            <div class="bol bol-1"></div>
+            <div class="bol bol-2"></div>
+            <div class="bol bol-3"></div>
+            <div class="bol bol-4"></div>
+            <div class="bol bol-5"></div>
+            <div class="inhoud">
+              <blockquote>In & Uit ademtraining helpt mensen naar een fitter, ontspannen en energieker leven. Meer ademruimte is meer leefruimte.</blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="symptomen">
+        <div class="wrapper">
+          <p>Herken jij een van deze klachten bij jezelf? Klik om te zien hoe ademtraining je daar bij kan helpen.</p>
+        </div>
+        <div class="links">
+          <div class="wrapper links-container">
+            <a href="#"><span>Hyperventilatie</span></a>
+            <a href="#"><span>Stress</span></a>
+            <a href="#"><span>Vage lichamelijke klachten</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="wrapper content">
+        {{ content }}
+      </section>
+      {% include footer.html %}
+    </div>
+    <style>
+      nav .pages a.home::before {
+        content: "›";
+        display: inline-block;
+        margin-right: .5em;
+      }
+    </style>
+  </body>
+</html>

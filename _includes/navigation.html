@@ -1,0 +1,32 @@
+
+<div class="logo-fixed">
+  <a href="/">{% include logo.html %}</a>
+</div>
+
+<a id="header-button" class="hamburger" href="#">
+  <div class="inner"></div>
+</a>
+
+<div id="close">
+
+</div>
+<nav>
+  <a class="logo-containter" href="/">
+    {% include logo.html %}
+  </a>
+  <hr>
+  <div class="pages">
+    <a class="home" href="/"><span>Home<span></a>
+    {% for item in site.paginas %}
+      <a class="{{ item.permalink }}" href="{{ item.url | prepend: site.baseurl }}"><span>{{ item.title }}</span></a>
+    {% endfor %}
+  </div>
+  <hr>
+  <div class="contact">
+    In & Uit Ademtraining<br>
+    info@in-en-uit.nl<br>
+    +31 (0)6 987 654 32<br>
+    Straatweg 40<br>
+    7654 HA, Stad
+  </div>
+</nav>

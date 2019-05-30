@@ -10,7 +10,7 @@ url: http://localhost:4000
 baseurl: ""
 
 collections:
-  fp-collection:
+  paginas:
     output: true
     permalink: /:permalink
 
@@ -29,10 +29,8 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      excerpt_separator: "<!--more-->"
   - scope:
       path: ""
-      type: "posts"
+      type: "paginas"
     values:
-      layout: "post-page"
-      excerpt_separator: "<!--more-->"
+      layout: "page"

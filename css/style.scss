@@ -1,26 +1,309 @@
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-Semibold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-SemiboldItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Freight Sans Pro Web';
+    src: url('fonts/FreightSansPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
 
+$blue: #2b4ad4;
+$black: #0A2239;
+$white: rgba(255,255,255,1);
+$orange: #FE5F38;
+
+$breaking-point-1: 1280px;
+$breaking-point-2: 900px;
+$breaking-point-3: 600px;
+$breaking-point-4: 520px;
+$breaking-point-5: 340px;
 
 
 body {
-  font-size: 18px;
-  font-family: "Akzidenz-Grotesk Next", sans-serif;
-  line-height: 1.4;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.6;
+  color: $black;
+  font-size: 15px;
+  @media (min-width: $breaking-point-3){
+    font-size: 16px;
+  }
+  @media (min-width: $breaking-point-2){
+    font-size: 18px;
+  }
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+nav {
+  background-color: $blue;
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  height: 100%;
+  padding: 2em;
+  color: $white;
+  overflow-y: auto;
+  z-index: 300;
+  .logo {
+    display: block;
+    width: 100%;
+    height: 130px;
+    .cls-1 {
+      fill: $white;
+    }
+  }
+  .logo-containter {
+    height: 2em;
+    transform: translateY(-200px);
+    overflow: visible;
+    display: block;
+    transition: height .2s ease, transform .2s ease;
+    @media (min-width: $breaking-point-1){
+      transform: translateY(0);
+      height: 130px;
+    }
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: $white;
+    opacity: .5;
+    margin: 2em 0;
+  }
+  .pages {
+    margin: -1em 0;
+    &:hover {
+      a {
+        color: rgba(255,255,255,.45);
+      }
+    }
+    a {
+      display: block;
+      color: $white;
+      padding: .5em 0;
+      font-size: 1.2em;
+      font-weight: 300;
+      transition: color .2s ease;
+      &:hover {
+        color: rgba(255,255,255,1);
+      }
+    }
+  }
+  .contact {
+    font-weight: 300;
+    font-size: .8em;
+  }
+  transform: translateX(-300px);
+  transition: transform .2s ease;
+  @media (min-width: $breaking-point-1){
+    transform: translateX(0px);
+  }
+}
+nav.active {
+  transform: translateX(0px);
+}
+
+//----- Hamburger component -----
+
+// Config
+$hamburger__height: 40px;
+$hamburger__width: 40px;
+$hamburger__layer__height: 6px;
+
+// Structure
+.hamburger {
+  display: block;
+  position: fixed;
+  width: $hamburger__height;
+  height: $hamburger__width;
+  z-index: 999;
+  top: 2em;
+  left: 2em;
+  .inner {
+    display: block;
+    width: $hamburger__width;
+    height: $hamburger__layer__height;
+    margin-top: $hamburger__layer__height * 2;
+    background: $blue;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &::before, &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      z-index: -1;
+      width: $hamburger__width;
+      height: $hamburger__layer__height;
+      background: $blue;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+    &::before {
+      top: 0;
+    }
+    &::after {
+      top: $hamburger__layer__height * 4;
+    }
+  }
+  transform: translatey(0px);
+  transition: transform .2s ease;
+  @media (min-width: $breaking-point-1){
+    transform: translatey(-100px);
+  }
+}
+
+// Clicked State
+.hamburger-open {
+  .inner {
+    background: none;
+    &::before, &::after {
+      top: $hamburger__layer__height * 2;
+      background: $white;
+    }
+    &::before {
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+    &::after {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+}
+#close {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .2;
+  z-index: 250;
+  display: none;
+  &.active {
+    display: block;
+    @media (min-width: $breaking-point-1){
+      display: none;
+    }
+  }
+}
+.logo-fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  a {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+  }
+  .logo {
+    height: 50px;
+    margin-top: 1.6em;
+    display: block;
+    width: 100%;
+    .cls-1 {
+      fill: $blue;
+    }
+  }
+  transform: translatey(0px);
+  transition: transform .2s ease;
+  @media (min-width: $breaking-point-1){
+    transform: translatey(-100px);
+  }
+}
+.page, .homepage {
+  margin-left: 0px;
+  transition: margin-left .2s ease;
+  @media (min-width: $breaking-point-1){
+    margin-left: 300px;
+  }
+}
+.page {
+  margin-top: 10em;
+  transition: margin-top .2s ease;
+  @media (min-width: $breaking-point-1){
+    margin-top: 0em;
+  }
 }
 .ademhaling {
+  z-index: 100;
   background: rgb(158,181,255);
-  background: linear-gradient(0deg, rgba(158,181,255,1) 0%, rgba(255,199,185,1) 100%);
-  margin-top: 120px;
+  background: linear-gradient(0deg, rgba(0, 47, 255, 0.18) 0%, rgba(255, 50, 0, 0.28) 100%);
   overflow: hidden;
 }
 .wrapper {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 2em;
 }
 .ratio {
   position: relative;
   height: 0;
-  padding-bottom: 60%;
+  padding-bottom: 140%;
+  @media (min-width: $breaking-point-5) {
+    padding-bottom: 120%;
+  }
+  @media (min-width: $breaking-point-4) {
+    padding-bottom: 100%;
+  }
+  @media (min-width: $breaking-point-3) {
+    padding-bottom: 80%;
+  }
+  @media (min-width: $breaking-point-2) {
+    padding-bottom: 60%;
+  }
   //border: 1px solid black;
 }
 .inhoud {
@@ -29,36 +312,45 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
-  display: flex; // make us of Flexbox
-  align-items: center; // does vertically center the desired content
-  justify-content: center; // horizontally centers single line items
+  display: flex;
+  align-items: center;
   blockquote {
     margin-top: -50%;
-    max-width: 700px;
+    max-width: 770px;
     margin: 0 auto;
-    font-size: 2.2em;
-    color: #003dff;
+    font-size: 1.5em;
+    color: $blue;
     font-weight: 300;
+    @media (min-width: $breaking-point-4) {
+      font-size: 1.8em;
+    }
+    @media (min-width: $breaking-point-3) {
+      font-size: 2em;
+    }
+    @media (min-width: $breaking-point-2) {
+      font-size: 2.2em;
+    }
+    transform: translatey(30px);
+    transition: transform .2s ease;
+    @media (min-width: $breaking-point-1){
+      transform: translatey(0px);
+    }
   }
 }
 @keyframes adem-in {
-  10% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+  0% {
+    transform: scale(1.5);
   }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+  45% {
+    transform: scale(1);
   }
 }
 @keyframes adem-uit {
-  60% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+  45% {
+    transform: scale(1.5);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 .bol {
@@ -99,4 +391,201 @@ body {
   top: 16%;
   left: 53%;
   width: 19%;
+}
+.symptomen {
+  p {
+    padding: 1em 0;
+    margin: 0;
+  }
+  .links {
+    background: linear-gradient(90deg, rgba(27,100,255,0) 0%, rgba(27,100,255,.7) 50%, rgba(27,100,255,0) 100%);
+  }
+  .links-container {
+    @media (min-width: $breaking-point-3) {
+      display: flex;
+    }
+    a {
+      display: flex;
+      position: relative;
+      box-sizing: border-box;
+      padding: 1.2em 1em;
+      line-height: 1;
+      width: 100%;
+      align-self: stretch;
+      text-align: center;
+      font-weight: 500;
+      color: $white;
+      background-color: $blue;
+      span {
+        display: block;
+        width: 100%;
+        align-self: center;
+        text-align: center;
+      }
+      @media (min-width: $breaking-point-3) {
+        width: 33.33%;
+      }
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background-image: linear-gradient(0deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,.05) 100%);
+        @media (min-width: $breaking-point-3) {
+          background-image: linear-gradient(-45deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,.05) 100%);
+        }
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity .2s ease;
+        opacity: 1;
+      }
+      &:hover::before {
+        opacity: 0;
+      }
+    }
+  }
+}
+.content {
+  margin-top: 3em;
+  p {
+    margin: 0;
+  }
+  a {
+    color: $orange;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.84) 100%, rgba(0,0,0,0) 0);
+    background-image: linear-gradient(to right, currentColor 100%, currentColor 0);
+    background-size: 1px 1px;
+    background-position: 0 1em;
+    background-position: 0 calc(1em);
+  }
+  iframe {
+    width: 100%;
+    margin: 1em 0 2em 0;
+  }
+  b, strong {
+    font-weight: 500;
+  }
+  > p, ol, ul, blockquote, form {
+    margin: 1em 0 2em 0;
+    max-width: 100%;
+    @media (min-width: $breaking-point-3) {
+      max-width: 66.66%;
+    }
+  }
+  input, textarea {
+    display: block;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 1em 0;
+    font: inherit;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  textarea {
+    min-height: 100px;
+    height: 175px;
+    max-height: 300px;
+  }
+  blockquote {
+    position: relative;
+    font-size: 1.5em;
+    color: $blue;
+    font-weight: 300;
+    margin: 1.5em 0 1.5em 0;
+    &::before {
+      content: "“";
+      position: absolute;
+      font-weight: 600;
+      display: block;
+      font-size: 10.5em;
+      opacity: .1;
+      height: 0;
+      overflow: visible;
+      top: -.45em;
+      left: -.15em;
+    }
+  }
+  .img-only, blockquote {
+    @media (min-width: $breaking-point-3) {
+      margin-left: 33.33%;
+    }
+  }
+  h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 500;
+    color: $blue;
+    margin-bottom: .2em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  h4 {
+    font-size: 1em;
+    //color: $black;
+  }
+  h2, h3, h4 {
+    font-weight: 400;
+  }
+  .call-to-action {
+    padding: .7em 1.2em .9em 1.2em;
+    border: 1px solid rgba(254, 95, 56, 0.2);
+    border-radius: 3px;
+    background-image: none;
+    display: block;
+    background-color: rgba(254, 95, 56, 0.06);
+    li {
+      list-style: none;
+      margin: .3em 0;
+      &::before {
+        content: "›";
+        display: inline-block;
+        margin-right: .5em;
+        color: $orange;
+      }
+    }
+  }
+  .smallprint {
+    padding: .8em 1em 1em 1em;
+    border: 1px solid rgba(10, 34, 57, 0.2);
+    border-radius: 3px;
+    display: block;
+    //font-size: .75em;
+    opacity: .8;
+    background-color: rgba(10, 34, 57, 0.06);
+  }
+}
+footer {
+  .wolken {
+    background-image: url('/img/wolken.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    &::before {
+      content: "";
+      display: block;
+      padding-bottom: 80%;
+      @media (min-width: $breaking-point-4) {
+        padding-bottom: 60%;
+      }
+      @media (min-width: $breaking-point-3) {
+        padding-bottom: 40%;
+      }
+      @media (min-width: $breaking-point-2) {
+        padding-bottom: 28%;
+      }
+    }
+  }
+  z-index: -100;
+  margin-top: -2em;
+  color: $blue;
+  font-size: .8em;
 }
