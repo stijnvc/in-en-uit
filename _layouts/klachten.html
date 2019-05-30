@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  {% include head.html %}
+  <body>
+    <style>
+      .symptomen .links-container a.{{ page.id }}::before {
+        opacity: 0;
+      }
+      .symptomen .links-container a.{{ page.id }} {
+        font-weight: 500;
+      }
+    </style>
+    {% include navigation.html %}
+    <div class="page symptomen-pagina">
+      <section class="symptomen">
+        <div class="wrapper">
+          <p>Herken jij een van deze klachten bij jezelf? Klik om te zien hoe ademtraining je daar bij kan helpen.</p>
+        </div>
+        <div class="links">
+          <div class="wrapper links-container">
+            <a class="hyperventilatie" href="/klachten/hyperventilatie"><span>Hyperventilatie</span></a>
+            <a class="stress" href="/klachten/stress"><span>Stress</span></a>
+            <a class="vage-lichamelijke-klachten" href="/klachten/vage-lichamelijke-klachten"><span>Vage lichamelijke klachten</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="wrapper content">
+        <!-- <h1>{{ page.title }}</h1> -->
+        {{ content }}
+      </section>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

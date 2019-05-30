@@ -271,6 +271,13 @@ $hamburger__layer__height: 6px;
     margin-top: 0em;
   }
 }
+.symptomen-pagina {
+  margin-top: 10em;
+  transition: margin-top .2s ease;
+  @media (min-width: $breaking-point-1){
+    margin-top: 3em;
+  }
+}
 .ademhaling {
   z-index: 100;
   background: rgb(158,181,255);
@@ -332,16 +339,11 @@ $hamburger__layer__height: 6px;
     }
   }
 }
-@keyframes adem-in {
+@keyframes adem {
   0% {
-    transform: scale(1.5);
-  }
-  45% {
     transform: scale(1);
   }
-}
-@keyframes adem-uit {
-  45% {
+  50% {
     transform: scale(1.5);
   }
   100% {
@@ -353,7 +355,7 @@ $hamburger__layer__height: 6px;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.5) 100%);
   border-radius: 50%;
-	animation: adem-in 8s ease infinite both, adem-uit 8s ease-in-out infinite both;
+	animation: adem 8s ease infinite both;
   &::after{
     content: "";
     position: relative;
@@ -404,11 +406,11 @@ $hamburger__layer__height: 6px;
       position: relative;
       box-sizing: border-box;
       padding: 1.2em 1em;
-      line-height: 1;
+      line-height: 1.4;
       width: 100%;
       align-self: stretch;
       text-align: center;
-      font-weight: 500;
+      font-weight: 400;
       color: $white;
       background-color: $blue;
       span {
@@ -452,8 +454,8 @@ $hamburger__layer__height: 6px;
     background-image: linear-gradient(to right, rgba(0,0,0,0.84) 100%, rgba(0,0,0,0) 0);
     background-image: linear-gradient(to right, currentColor 100%, currentColor 0);
     background-size: 1px 1px;
-    background-position: 0 1em;
-    background-position: 0 calc(1em);
+    background-position: 0 1.04em;
+    background-position: 0 calc(1.04em);
   }
   iframe {
     width: 100%;
@@ -512,6 +514,10 @@ $hamburger__layer__height: 6px;
     font-weight: 500;
     color: $blue;
     margin-bottom: .2em;
+    max-width: 100%;
+    @media (min-width: $breaking-point-3) {
+      max-width: 66.66%;
+    }
   }
   h1 {
     font-size: 2em;
@@ -539,10 +545,13 @@ $hamburger__layer__height: 6px;
     li {
       list-style: none;
       margin: .3em 0;
+      margin-left: 1em;
+      position: relative;
       &::before {
         content: "›";
-        display: inline-block;
-        margin-right: .5em;
+        display: block;
+        position: absolute;;
+        left: -1em;
         color: $orange;
       }
     }
