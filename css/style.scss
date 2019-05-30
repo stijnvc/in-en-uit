@@ -117,20 +117,15 @@ nav {
   }
   .pages {
     margin: -1em 0;
-    &:hover {
-      a {
-        color: rgba(255,255,255,.45);
-      }
-    }
     a {
       display: block;
-      color: $white;
       padding: .5em 0;
       font-size: 1.2em;
       font-weight: 300;
       transition: color .2s ease;
+      color: rgba(255,255,255,1);
       &:hover {
-        color: rgba(255,255,255,1);
+        color: rgba(255,255,255,.5);
       }
     }
   }

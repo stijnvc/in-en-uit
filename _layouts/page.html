@@ -2,6 +2,12 @@
 <html lang="nl" dir="ltr">
   {% include head.html %}
   <body>
+  <style>
+    nav .pages a.{{ page.permalink }} {
+      transition: none;
+      color: rgba(255,255,255,.5);
+    }
+  </style>
     {% include navigation.html %}
   <div class="page">
     <section class="wrapper content">
@@ -11,12 +17,5 @@
     </section>
     {% include footer.html %}
   </div>
-  <style>
-    nav .pages a.{{ page.permalink }}::before {
-      content: "›";
-      display: inline-block;
-      margin-right: .5em;
-    }
-  </style>
   </body>
 </html>
