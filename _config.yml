@@ -1,20 +1,16 @@
 
 # The name of your website.
-name: Stijn van Cuijk Design
+name: In en Uit — Ademtraining / NLP / Systemisch coaching
 
-description:
-  # Description of your site. This will show up in google.
-  meta: Portfolio of Stijn van Cuijk, a multidisciplinary designer currently studying Industrial Product Design.
-
-date_format: "%b %-d, %Y"
+description: In en Uit — Ademtraining / NLP / Systemisch coaching
 
 # The URL of the homepage of your site (without trailing slash). Leave this
 # empty when you run Jekyll locally.
-url: https://stijnvancuijk.com
+url: https://in-en-uit.stijn.vc
 baseurl: ""
 
 collections:
-  fp-collection:
+  paginas:
     output: true
     permalink: /:permalink
 
@@ -30,13 +26,11 @@ permalink: pretty
 defaults:
   - scope:
       path: ""
-      type: "fp-collection"
+      type: "pages"
     values:
       layout: "page"
-      excerpt_separator: "<!--more-->"
   - scope:
       path: ""
-      type: "posts"
+      type: "paginas"
     values:
-      layout: "post-page"
-      excerpt_separator: "<!--more-->"
+      layout: "page"
