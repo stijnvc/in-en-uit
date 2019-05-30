@@ -13,6 +13,6 @@ Ik leer je hoe je jouw boodschap zodanig kunt overbrengen dat de ander jou beter
 Ik leer je effectiever te communiceren zowel naar de ander als naar jezelf toe.
 
 <ul class="call-to-action">
-  <li><a href="/systemisch coaching">Lees over hoe ik Systemisch coaching toepas.</a></li>
+  <li><a href="/systemisch-coaching">Lees over hoe ik Systemisch coaching toepas.</a></li>
   <li><a href="/ademtraining">Kijk wat ademtraining voor jou kan betekenen.</a></li>
 </ul>
