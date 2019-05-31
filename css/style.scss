@@ -1,51 +1,4 @@
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-Semibold.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-SemiboldItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Freight Sans Pro Web';
-    src: url('fonts/FreightSansPro-BookItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
+
 
 $blue: #2b4ad4;
 $black: #0A2239;
@@ -60,7 +13,7 @@ $breaking-point-5: 340px;
 
 
 body {
-  overflow: hidden;
+
   font-family: "Rubik", sans-serif;
   line-height: 1.6;
   color: $black;
@@ -188,9 +141,11 @@ $hamburger__layer__height: 6px;
     }
   }
   transform: translatey(0px);
-  transition: transform .2s ease;
+  opacity: 1;
+  transition: transform .2s ease, opacity .2s ease;
   @media (min-width: $breaking-point-1){
     transform: translatey(-100px);
+    opacity: 0;
   }
 }
 
@@ -253,9 +208,11 @@ $hamburger__layer__height: 6px;
     }
   }
   transform: translatey(0px);
-  transition: transform .2s ease;
+  opacity: 1;
+  transition: transform .2s ease, opacity .2s ease;
   @media (min-width: $breaking-point-1){
     transform: translatey(-100px);
+    opacity: 0;
   }
 }
 .page, .homepage {
@@ -427,9 +384,9 @@ $hamburger__layer__height: 6px;
         content: "";
         display: block;
         position: absolute;
-        background-image: linear-gradient(0deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,.05) 100%);
+        background-image: linear-gradient(0deg, rgba(255,255,255,0.20) 0%, rgba(255,255,255,.1) 100%);
         @media (min-width: $breaking-point-3) {
-          background-image: linear-gradient(-45deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,.05) 100%);
+          background-image: linear-gradient(-45deg, rgba(255,255,255,0.20) 0%, rgba(255,255,255,.1) 100%);
         }
         top: 0;
         left: 0;

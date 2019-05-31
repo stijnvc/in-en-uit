@@ -4,7 +4,7 @@ title: Bedankt voor je vraag
 
 Je krijgt zo spoedig mogelijk een antwoord van me terug.
 
-### Lees verder
+### Lees verder 
 
 <ul class="call-to-action">
   <li><a href="/ademtraining">Ademtraining</a></li>

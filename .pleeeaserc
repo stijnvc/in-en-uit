@@ -1,0 +1,7 @@
+{
+  "in": "css/style.scss",
+  "out": "css/style.min.css",
+  "sass": true,
+  "pseudoElements": false,
+  "opacity": false
+}

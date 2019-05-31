@@ -18,6 +18,7 @@ collections:
 # BUILD SETTINGS #
 ##################
 
+
 exclude: [vendor]
 kramdown:
   input: GFM
