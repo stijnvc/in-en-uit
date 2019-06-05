@@ -1,8 +1,8 @@
 
-$blue: #2b4ad4;
-$black: #0A2239;
+$blue: #0087E8;
+$black: #344055;
 $white: rgba(255,255,255,1);
-$orange: #FE5F38;
+$orange: #FE5F55;
 
 $breaking-point-1: 1280px;
 $breaking-point-2: 900px;
@@ -116,7 +116,6 @@ $hamburger__layer__height: 6px;
     height: $hamburger__layer__height;
     margin-top: $hamburger__layer__height * 2;
     background: $blue;
-    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 
     &::before, &::after {
@@ -127,7 +126,6 @@ $hamburger__layer__height: 6px;
       width: $hamburger__width;
       height: $hamburger__layer__height;
       background: $blue;
-      -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
     }
     &::before {
@@ -155,13 +153,9 @@ $hamburger__layer__height: 6px;
       background: $white;
     }
     &::before {
-      -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
       transform: rotate(-45deg);
     }
     &::after {
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
       transform: rotate(45deg);
     }
   }
@@ -236,7 +230,7 @@ $hamburger__layer__height: 6px;
 .ademhaling {
   z-index: 100;
   background: rgb(158,181,255);
-  background: linear-gradient(0deg, rgba(0, 47, 255, 0.18) 0%, rgba(255, 50, 0, 0.28) 100%);
+  background: linear-gradient(0deg, rgba(0, 135, 232, 0.42) 0%, rgba(254, 95, 85, 0.35) 100%);
   overflow: hidden;
 }
 .wrapper {
@@ -495,11 +489,11 @@ $hamburger__layer__height: 6px;
   }
   .call-to-action {
     padding: .7em 1.2em .9em 1.2em;
-    border: 1px solid rgba(254, 95, 56, 0.2);
+    border: 1px solid rgba(254, 95, 85, 0.2);
     border-radius: 3px;
     background-image: none;
     display: block;
-    background-color: rgba(254, 95, 56, 0.06);
+    background-color: rgba(254, 95, 85, 0.06);
     li {
       list-style: none;
       margin: .3em 0;
@@ -516,12 +510,12 @@ $hamburger__layer__height: 6px;
   }
   .smallprint {
     padding: .8em 1em 1em 1em;
-    border: 1px solid rgba(10, 34, 57, 0.2);
+    border: 1px solid rgba(52, 64, 85, 0.2);
     border-radius: 3px;
     display: block;
     //font-size: .75em;
     opacity: .8;
-    background-color: rgba(10, 34, 57, 0.06);
+    background-color: rgba(52, 64, 85, 0.06);
   }
 }
 footer {
