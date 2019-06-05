@@ -1,5 +1,4 @@
 
-
 $blue: #2b4ad4;
 $black: #0A2239;
 $white: rgba(255,255,255,1);
@@ -11,9 +10,7 @@ $breaking-point-3: 600px;
 $breaking-point-4: 520px;
 $breaking-point-5: 340px;
 
-
 body {
-
   font-family: "Rubik", sans-serif;
   line-height: 1.6;
   color: $black;
@@ -462,10 +459,13 @@ $hamburger__layer__height: 6px;
       left: -.15em;
     }
   }
-  .img-only, blockquote {
+  blockquote {
     @media (min-width: $breaking-point-3) {
       margin-left: 33.33%;
     }
+  }
+  > p.img-only {
+    max-width: 100%;
   }
   h1, h2, h3, h4 {
     margin: 0;

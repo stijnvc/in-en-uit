@@ -5,7 +5,7 @@ permalink: ademtraining
 
 ### Wat doet goed ademen voor jou?
 
-Ademhalingsoefeningen zorgen ervoor dat je lichamelijk, emotioneel en mentaal sterker en weerbaarder wordt. Doordat je beter ademt en meer ontspant zal je concentratie verbeteren. Een praktische manier om piekeren los te laten en uit je hoofd te gaan.
+Ademhalingsoefeningen zorgen ervoor dat je lichamelijk, emotioneel en mentaal sterker en weerbaarder wordt. Doordat je beter ademt en meer ontspant kun je je beter concentreren. Een praktische manier om piekeren los te laten en uit je hoofd te gaan.
 
 #### Door verbeteren van jou ademhaling:
 
@@ -16,14 +16,14 @@ Ademhalingsoefeningen zorgen ervoor dat je lichamelijk, emotioneel en mentaal st
 
 #### Hoe gaan we dit doen?
 
-We beginnen met een intake-gesprek waarbij we kijken op welke manier het ademen je kan helpen bij jou vraag of probleem.
-
-1. Adem analyse: hoe gebruik jij jou ademhalingssysteem.
-2. Waar kun jij nog winst halen?
-3. Aan de slag met ademhaling oefeningen die aansluiten bij de vraag en analyse.
+0. Kennismakingsgesprek
+1. Ademanalyse: hoe gebruik jij jou ademhalingssysteem.
+2. Drie tot vijf coach sessies van 1,5 uur
+3. Ademtraining met/of andere interventie
+4. Oefeningen om ademhaling blijvend te verbeteren
 
 <p class="smallprint">
-Ademtraining is geen vervanger van de reguliere huisarts of specialist, maar een complementaire therapievorm. Ik adviseert nooit om reguliere behandelingen te stoppen. Indien nodig wordt overlegd met huisarts of andere behandelaar(s).
+De ademtraining en coaching die ik geef is geen vervanging van een reguliere behandeling. Overleg indien nodig met de huisarts of specialist.
 </p>
 
 <ul class="call-to-action">

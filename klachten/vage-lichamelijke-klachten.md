@@ -12,12 +12,12 @@ id: vage-lichamelijke-klachten
   <li><a href="/maak-een-afspraak">Last van "vage" lichamelijke klachten? Maak een afspraak, stel een vraag of neem vrijblijvend contact op.</a></li>
 </ul>
 
-Je hebt een prachtige ‘tool’ in je lichaam om te ademen: het ademhalingssysteem. Het fysieke doel van je ademhaling is dat er zuurstof in je lichaam komt. Deze zuurstof wordt vanuit de longen opgenomen in je bloed en gaat je hele lichaam door, zodat elke cel voorzien wordt van zuurstof en deze kan omzetten in energie. De CO2 die je uitademt is het eindproduct van een volledige verbranding van onder andere suikers, eiwitten en vetten.
+Omdat ademhalen een fysiek proces is van gasuitwisseling in de longen zijn de positieve fysieke voordelen het meest herkenbaar bij een *volledige in en uit ademhaling*. Door de ademtraining geef je een sterk signaal aan je lichaam om de gasuitwisseling te verbeteren tot op celniveau: zuurstof transport, energie, suiker- en vet stofwisseling, afweersysteem en herstelvermogen, concentratie en stress bestendigheid.
 
-Omdat ademhalen een fysiek proces is van gasuitwisseling in de longen zijn de positieve fysieke voordelen het meest herkenbaar bij een volledige ademhaling. Vaak geven mensen aan nu eindelijk begrijpen dat ze zich helemaal niet bewust waren van het belang van een goede ademhaling. Ze vertellen dan dat ze voor het eerst in hun leven voelen dat ze eigenlijk altijd heel snel ademen. En dat ze zelfs hun adem inhouden als ze stress of druk ervaren.
+Ik merk met regelmaat dat de mensen waarmee ik in gesprek ben zich niet bewust zijn van hun ademhaling. Bij het oefenen worden ze bewust van wat ze onbewust doen. Denk hierbij aan te snel ademen, hoge ademhaling bij paniek of angst of de adem inhouden bij stress of (werk)druk.
 
 >De specialist in het ziekenhuis adviseerde ademtherapie. Ik had er nog nooit van gehoord. Grapte nog dat ik mijn hele leven al ademhaal... Nu ik dit advies heb opgevolgd is mij pas duidelijk dat ik al jaren verkeerd ademde. Dat dit ook de oorzaak bleek van een aantal lichamelijke klachten die inmiddels bijna allemaal opgelost zijn. Ik kan met recht zeggen dat ik weer opgelucht adem haal.
-<br>— Ron
+<br>— Ron P. (adviseur)
 
 <ul class="call-to-action">
   <li><a href="/maak-een-afspraak">Neem vrijblijvend contact op.</a></li>

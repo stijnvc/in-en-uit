@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /Users/stijnvancuijk/Documents/GitHub/in-en-uit
+echo "fswatch in monitoring ./css/style/scss for changes"
+fswatch -o ./css/style.scss | xargs -n1 -I{} ./pleeease

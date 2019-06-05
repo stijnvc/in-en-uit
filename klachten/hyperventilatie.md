@@ -22,16 +22,16 @@ Je creëert hyperventilatie doordat je iets denkt, voelt of ziet wat je angstig 
 
 * Rustiger en langzamer ademen en de uitademing verlengen.
 * Loop de trap op en neer of ga een stukje rennen.
-* Stop even met ademen en doe je hand voor mond.
+* Stop even met ademen of adem in een zakje.
 
 #### Preventief samen met de ademcoach:
 
-* Bewust worden van wat je eigenlijk doet en leren ontspannen.
-* Pak de psychische oorzaak aan van jou hyperventilatie.
-* Leer om beter op te komen voor jezelf en minder te piekeren.
+* Bewust te worden van wat je eigenlijk doet en leren ontspannen.
+* De psychische oorzaak van de hyperventilatie te onderzoeken.
+* Te leren om beter op te komen voor jezelf en minder te piekeren.
 
 >mijn hyperventilatie maakte me bang en onzeker. Hierdoor stond mijn lichaam strak en gespannen en ik had niet in de gaten dat ik dit zelf veroorzaakte. Judith heeft me geholpen bij het herkennen van hoe ik adem en wat ik zelf kan doen als ik voel dat ik licht wordt in mijn hoofd en trillerig in lijf. Ik voel eerder wanneer ik spanning vast zet en ben in staat om naar ontspanning te ademen. Ik voel meer ontspanning en heb geen last meer van hyperventilatie.
-<br>— Ans
+<br>— Ans S. (docent)
 
 <ul class="call-to-action">
   <li><a href="/maak-een-afspraak">Neem vrijblijvend contact op.</a></li>
