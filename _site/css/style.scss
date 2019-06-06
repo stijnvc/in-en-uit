@@ -1,6 +1,6 @@
 
-$blue: #0087E8;
-$black: #344055;
+$blue: #0062ab;
+$black: #333;
 $white: rgba(255,255,255,1);
 $orange: #FE5F55;
 
@@ -214,24 +214,63 @@ $hamburger__layer__height: 6px;
   }
 }
 .page {
-  margin-top: 10em;
+  margin-top: 7em;
   transition: margin-top .2s ease;
   @media (min-width: $breaking-point-1){
     margin-top: 0em;
   }
 }
 .symptomen-pagina {
-  margin-top: 10em;
+  margin-top: 7em;
   transition: margin-top .2s ease;
   @media (min-width: $breaking-point-1){
     margin-top: 3em;
   }
 }
-.ademhaling {
+.cover-image {
   z-index: 100;
-  background: rgb(158,181,255);
-  background: linear-gradient(0deg, rgba(0, 135, 232, 0.42) 0%, rgba(254, 95, 85, 0.35) 100%);
+  //background: rgb(158,181,255);
+  //background: linear-gradient(0deg, $blue 0%, $orange 100%);
+  background-color: #eee;
+  background-image: url('/img/covers/cover.jpg');
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
+  position: relative;
+}
+.homepage .cover-image::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,.5);
+  background-image: radial-gradient(rgba(255,255,255,.5) 24%, transparent 25%), radial-gradient(rgba(255,255,255,.5) 24%, transparent 25%);
+  background-size: 6px 6px;
+  background-position: 0 0, 3px 3px;
+  z-index: 100;
+}
+.page .pattern {
+  background-color: rgba(255,255,255,.65);
+  background-image: radial-gradient(rgba(255,255,255,.5) 24%, transparent 25%), radial-gradient(rgba(255,255,255,.5) 24%, transparent 25%);
+  background-size: 6px 6px;
+  background-position: 0 0, 3px 3px;
+  z-index: 100;
+}
+.page {
+  .cover-image {
+    .inhoud {
+      position: relative;
+      padding: 3em 0;
+      h1 {
+        font-weight: 400;
+        font-size: 2.5em;
+        color: $blue;
+      }
+    }
+  }
 }
 .wrapper {
   position: relative;
@@ -265,6 +304,7 @@ $hamburger__layer__height: 6px;
   text-align: center;
   display: flex;
   align-items: center;
+  z-index: 200;
   blockquote {
     margin-top: -50%;
     max-width: 770px;
@@ -344,7 +384,7 @@ $hamburger__layer__height: 6px;
     margin: 0;
   }
   .links {
-    background: linear-gradient(90deg, rgba(27,100,255,0) 0%, rgba(27,100,255,.7) 50%, rgba(27,100,255,0) 100%);
+    //background: linear-gradient(90deg, rgba(27,100,255,0) 0%, rgba(27,100,255,.7) 50%, rgba(27,100,255,0) 100%);
   }
   .links-container {
     @media (min-width: $breaking-point-3) {

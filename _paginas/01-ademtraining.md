@@ -1,6 +1,7 @@
 ---
 title: Ademtraining
 permalink: ademtraining
+cover-image: cover.jpg
 ---
 
 ### Wat doet goed ademen voor jou?

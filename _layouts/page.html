@@ -10,9 +10,16 @@
   </style>
     {% include navigation.html %}
   <div class="page">
+    <section {% if page.cover-image %}style="background-image: url('/img/covers/{{ page.cover-image}}')"{% endif %} class="cover-image">
+      <div class="pattern">
+        <div class="wrapper">
+          <div class="inhoud">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="wrapper content">
-      {% if page.cover-image %}<img src="{{ page.cover-image }}">{% endif %}
-      <h1>{{ page.title }}</h1>
       {{ content }}
     </section>
     {% include footer.html %}
