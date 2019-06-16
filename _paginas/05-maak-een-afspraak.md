@@ -1,6 +1,7 @@
 ---
 title: Maak een afspraak
 permalink: maak-een-afspraak
+cover-image: zon.jpg
 ---
 
 ### Of neem vrijblijvend contact op

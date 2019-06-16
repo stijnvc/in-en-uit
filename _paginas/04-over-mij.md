@@ -1,6 +1,7 @@
 ---
 title: Over mij
 permalink: over-mij
+cover-image: bloem.jpg
 ---
 
 Ik ben Judith van Cuijk. Ik help en leer mensen hoe ze fitter, ontspannen en energieker kunnen leven door anders te ademen.
