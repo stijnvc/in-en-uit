@@ -18,6 +18,10 @@ Voel je onrust, hartkloppingen door spanning, pijn, verdriet of angst? Grote kan
 
 Als je gespannen bent, zucht je vaak. Bij schrik of spanning houd je de adem in. Als je van de schrik bekomen bent, slaak je een zucht van verlichting. Bij hevige stress, angst of ingrijpende emotionele gebeurtenissen wordt het ademcentrum geprikkeld en gaat je ademhaling zich ook (automatisch) versnellen en als het stressmoment voorbij is vertraagt de ademhaling zich weer automatisch. Bij langdurige, chronische stress raakt je lichaam aan deze toestand gewend en kan de ademhaling een eigen leven gaan lijden.
 
+### Juiste balans tussen inspanning en ontspanning
+
+![illustratie](/img/illustratie.png)
+
 Hoe helpt ademtraining jou hierbij:
 
 * Je leert de balans in jou ademhaling te herstellen door op de juiste manier in & uit te ademen.
