@@ -19,7 +19,7 @@ Ademhalingsoefeningen zorgen ervoor dat je lichamelijk, emotioneel en mentaal st
 
 0. Kennismakingsgesprek
 1. Ademanalyse: hoe gebruik jij jou ademhalingssysteem.
-2. Drie tot vijf coach sessies van 1,5 uur
+2. Drie tot vijf sessies van 1,5 uur
 3. Ademtraining met/of andere interventie
 4. Oefeningen om ademhaling blijvend te verbeteren
 

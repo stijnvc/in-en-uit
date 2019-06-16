@@ -282,7 +282,7 @@ $hamburger__layer__height: 6px;
 .ratio {
   position: relative;
   height: 0;
-  padding-bottom: 140%;
+  padding-bottom: 100%;
   @media (min-width: $breaking-point-5) {
     padding-bottom: 120%;
   }

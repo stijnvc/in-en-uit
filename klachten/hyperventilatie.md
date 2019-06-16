@@ -14,9 +14,13 @@ Klachten: _tintelingen_, _duizeligheid_, _angst_, _vermoeidheid_.
   <li><a href="/maak-een-afspraak">Last van hyperventilatie? Maak een afspraak, stel een vraag of neem vrijblijvend contact op.</a></li>
 </ul>
 
-Bij Hyperventilatie adem je te snel en te diep, je haalt letterlijk teveel adem. Je neemt meer zuurstof in dan je lichaam verbranden kan. Hierdoor heb je teveel zuurstof en te weinig koolzuurgas in je lichaam waardoor je last kun krijgen van boven genoemde symptomen.
+Bij hyperventilatie adem je te snel en te diep, je haalt letterlijk teveel adem. Je neemt meer zuurstof in dan je lichaam verbranden kan. Hierdoor heb je teveel zuurstof en te weinig koolzuurgas in je lichaam waardoor je last kun krijgen van boven genoemde symptomen.
 
-Je creëert hyperventilatie doordat je iets denkt, voelt of ziet wat je angstig of  spannend vindt. Hierdoor ga je extra adrenaline aanmaken en ga jij meer zuurstof in ademen. Je brengt hiermee jou lichaam in de “vecht of vluchtstand”. Doordat je de extra zuurstof niet verbrandt voel je je lichter worden in je hoofd of voelt tintelingen. Ook kunnen er dan enge gedachten of beelden in je op komen waardoor je angst en stress voelt en dan is de cirkel weer rond.
+Je creëert hyperventilatie doordat je iets denkt, voelt of ziet wat je angstig of spannend vindt. Hierdoor ga je extra adrenaline aanmaken en ga jij meer zuurstof in ademen. Je brengt hiermee jou lichaam in de “vecht of vluchtstand”. Doordat je de extra zuurstof niet verbrandt voel je je lichter worden in je hoofd of voelt tintelingen. Ook kunnen er dan enge gedachten of beelden in je op komen waardoor je angst en stress voelt en dan is de cirkel weer rond.
+
+Wanneer je constant te veel ademt, kan het de gezondheid gaan schaden. Artsen noemen een dergelijk ademhaling chronische hyperventilatie. Sommige mensen weten dat ze verkeerd ademen. Anderen hebben het helemaal niet door. Daarom wordt het ook vaak verborgen Hyperventilatie genoemd.       
+
+> Gezond ademen betekent dat er een balans is: je ademt voldoende zuurstof naar binnen én je ademt voldoende koolzuurgas naar buiten.
 
 #### Hyperventilatie is geen ziekte, je creëert dit zelf en kunt dit ook zelf doorbreken door:
 
