@@ -1,7 +1,7 @@
 ---
 title: Ademtraining
 permalink: ademtraining
-cover-image: duinen.jpg
+cover-image: strand.jpg
 ---
 
 ### Wat doet goed ademen voor jou?
