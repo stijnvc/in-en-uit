@@ -1,7 +1,7 @@
 ---
 title: Systemisch coaching
 permalink: systemisch-coaching
-cover-image: winter.jpg
+cover-image: bij.jpg
 ---
 
 

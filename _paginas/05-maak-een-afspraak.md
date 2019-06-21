@@ -1,12 +1,12 @@
 ---
 title: Maak een afspraak
 permalink: maak-een-afspraak
-cover-image: zon.jpg
+cover-image: gras.jpg
 ---
 
 ### Of neem vrijblijvend contact op
 
-Email: [info@in-en-uit.nl](mailto: info@in-en-uit.nl)<br>Telefoonnr.: +31 (0)6 987 654 32
+Email: [coaching@in-en-uit.nl](mailto: coaching@in-en-uit.nl)<br>Telefoonnr.: +31 (0)6 987 654 32
 
 <p class="smallprint">
 <b>Tarieven</b><br>

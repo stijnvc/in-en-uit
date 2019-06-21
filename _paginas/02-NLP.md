@@ -1,7 +1,7 @@
 ---
 title: NLP
 permalink: nlp
-cover-image: duinen.jpg
+cover-image: distel.jpg
 ---
 
 De term **Neuro Linguïstisch Programmeren** staat voor hoe wij de wereld om ons heen waarnemen en hoe wij daarop vervolgens reageren. Om effectiever te communiceren en om gedrag te kunnen veranderen moeten we eerst weten hoe communicatie werkt. Communicatie is de rode draad bij alles wat je doet (net als ademhalen). Je communiceert de hele dag door, bewust en onbewust, verbaal, non-verbaal. Je kunt niet _niet_ communiceren.
