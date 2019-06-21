@@ -444,7 +444,7 @@ $hamburger__layer__height: 6px;
   a {
     color: $orange;
     background-repeat: repeat-x;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.84) 100%, rgba(0,0,0,0) 0);
+    background-image: linear-gradient(to right, $orange 100%, rgba(0,0,0,0) 0);
     background-image: linear-gradient(to right, currentColor 100%, currentColor 0);
     background-size: 1px 1px;
     background-position: 0 1.04em;
@@ -563,6 +563,15 @@ $hamburger__layer__height: 6px;
   }
 }
 footer {
+  a {
+    color: $blue;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, $blue 100%, rgba(0,0,0,0) 0);
+    background-image: linear-gradient(to right, currentColor 100%, currentColor 0);
+    background-size: 1px 1px;
+    background-position: 0 1em;
+    background-position: 0 calc(1em);
+  }
   .wolken {
     background-image: url('/img/wolken.jpg');
     background-size: cover;
