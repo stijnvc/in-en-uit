@@ -8,7 +8,9 @@ cover-image: strand.jpg
 
 Ademhalingsoefeningen zorgen ervoor dat je lichamelijk, emotioneel en mentaal sterker en weerbaarder wordt. Doordat je beter ademt en meer ontspant kun je je beter concentreren. Een praktische manier om piekeren los te laten en uit je hoofd te gaan.
 
-#### Door verbeteren van jou ademhaling:
+Ik merk met regelmaat dat de mensen waarmee ik in gesprek ben zich niet bewust zijn van hun ademhaling. Bij het oefenen worden ze bewust van wat ze onbewust doen. Denk hierbij aan te snel ademen, hoge ademhaling bij paniek of angst of de adem inhouden bij stress of (werk)druk.
+
+#### Door verbeteren van jouw ademhaling:
 
 * ga je beter om met spanning en emotie.
 * ervaar je meer balans tussen lichaam & denken.
@@ -18,7 +20,7 @@ Ademhalingsoefeningen zorgen ervoor dat je lichamelijk, emotioneel en mentaal st
 #### Hoe gaan we dit doen?
 
 0. Kennismakingsgesprek
-1. Ademanalyse: hoe gebruik jij jou ademhalingssysteem.
+1. Ademanalyse: hoe gebruik jij jouw ademhalingssysteem.
 2. Drie tot vijf sessies van 1,5 uur
 3. Ademtraining met/of andere interventie
 4. Oefeningen om ademhaling blijvend te verbeteren

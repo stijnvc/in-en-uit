@@ -8,7 +8,7 @@ Ik ben Judith van Cuijk. Ik help en leer mensen hoe ze fitter, ontspannen en ene
 
 ![Judith](/img/judith.jpg)
 
-“Zoals je leeft adem je", las ik ooit in een artikel. Deze woorden raakte mij en ze deden mij ook denken aan de woorden van mijn docent tijdens mijn opleiding over communicatie. "Communiceren doe je altijd (ook non-verbaal) dus kun je dit maar beter zo effectief mogelijk doen".
+“Zoals je leeft adem je", las ik ooit in een artikel. Deze woorden raakten mij en ze deden mij ook denken aan de woorden van mijn docent tijdens mijn NLP opleiding over communicatie. "Communiceren doe je altijd (ook non-verbaal) dus kun je dit maar beter zo effectief mogelijk doen".
 
 Ik raakte gefascineerd door het feit dat ik op deze manier ook invloed heb op mijn ademhaling. Ademen doe ik altijd (tijdens mijn leven) dus kan ik maar beter zo effectief mogelijk ademen.
 
@@ -21,7 +21,7 @@ Door bewust ademhaling in te zetten bij lichamelijke, mentale of emotionele klac
 De trajecten die ik bied zijn geheel op maat. Ik werk vanuit een holistische (de mens in zijn totaliteit) visie. Hierbij is mijn werkmethode van de ademtraining aangevuld vanuit NLP en Systemisch coachen.
 
 <ul class="call-to-action">
-  <li><a href="/nlp">Lees meer over hoe ik NLP toepas.</a></li>
+  <li><a href="/nlp">Lees meer over hoe ik NLP coaching toepas.</a></li>
   <li><a href="/systemisch coaching">Lees meer over hoe ik Systemisch coaching toepas.</a></li>
   <li><a href="/ademtraining">Kijk wat ademtraining voor jou kan betekenen.</a></li>
 </ul>

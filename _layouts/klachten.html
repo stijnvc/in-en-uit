@@ -12,19 +12,7 @@
     </style>
     {% include navigation.html %}
     <div class="page symptomen-pagina">
-      <section class="symptomen">
-        <div class="wrapper">
-          <p>Herken jij een van deze klachten bij jezelf? Klik om te zien hoe ademtraining je daar bij kan helpen.</p>
-        </div>
-        <div class="links">
-          <div class="wrapper links-container">
-            <a class="stress" href="/klachten/stress"><span>Stress</span></a>
-            <a class="slaapproblemen" href="/klachten/slaapproblemen"><span>Slaapproblemen</span></a>
-            <a class="vage-lichamelijke-klachten" href="/klachten/vage-lichamelijke-klachten"><span>Vage lichamelijke klachten</span></a>
-            <a class="hyperventilatie" href="/klachten/hyperventilatie"><span>Hyperventilatie</span></a>
-          </div>
-        </div>
-      </section>
+      {% include klachten-links.html %}
       <section class="wrapper content">
         <!-- <h1>{{ page.title }}</h1> -->
         {{ content }}
