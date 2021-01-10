@@ -2,6 +2,7 @@
 title: NLP coaching
 permalink: nlp-coaching
 cover-image: distel.jpg
+navigation: true
 ---
 
 De NLP Methode gaat over het ontdekken _hoe_ jij de dingen doet die je doet en hoe je (indien gewenst) deze kunt veranderen. Hoe reageer jij (communicatie en gedrag) op dat wat je waarneemt en hoe zou je dat effectiever of anders kunnen doen?Om effectiever te communiceren en om gedrag te kunnen veranderen moet je eerst weten hoe communicatie werkt. Communicatie is de rode draad bij alles wat je doet (net als ademhalen). Je communiceert de hele dag door, bewust en onbewust, verbaal, non-verbaal. Je kunt niet _niet_ communiceren.

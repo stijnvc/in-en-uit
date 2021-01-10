@@ -14,7 +14,7 @@ Klachten: _tintelingen_, _duizeligheid_, _angst_, _vermoeidheid_.
   <li><a href="/maak-een-afspraak">Last van hyperventilatie? Maak een afspraak, stel een vraag of neem vrijblijvend contact op.</a></li>
 </ul>
 
->mijn hyperventilatie maakte me bang en onzeker. Hierdoor stond mijn lichaam strak en gespannen en ik had niet in de gaten dat ik dit zelf veroorzaakte. Judith heeft me geholpen bij het herkennen van hoe ik adem en wat ik zelf kan doen als ik voel dat ik licht wordt in mijn hoofd en trillerig in lijf. Ik voel eerder wanneer ik spanning vast zet en ben in staat om naar ontspanning te ademen. Ik voel meer ontspanning en heb geen last meer van hyperventilatie.
+>Mijn hyperventilatie maakte me bang en onzeker. Hierdoor stond mijn lichaam strak en gespannen en ik had niet in de gaten dat ik dit zelf veroorzaakte. Judith heeft me geholpen bij het herkennen van hoe ik adem en wat ik zelf kan doen als ik voel dat ik licht wordt in mijn hoofd en trillerig in lijf. Ik voel eerder wanneer ik spanning vast zet en ben in staat om naar ontspanning te ademen. Ik voel meer ontspanning en heb geen last meer van hyperventilatie.
 <br>— Ans S. (docent)
 
 Bij hyperventilatie adem je te snel en te diep, je haalt letterlijk teveel adem. Je neemt meer zuurstof in dan je lichaam verbranden kan. Hierdoor heb je teveel zuurstof en te weinig koolzuurgas in je lichaam waardoor je last kun krijgen van boven genoemde symptomen.

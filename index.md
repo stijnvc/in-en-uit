@@ -1,5 +1,6 @@
 ---
 layout: homepage
+title: Home
 ---
 
 # Waarom ademtraining?

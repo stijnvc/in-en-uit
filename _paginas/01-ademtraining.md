@@ -2,6 +2,7 @@
 title: Ademtraining
 permalink: ademtraining
 cover-image: strand.jpg
+navigation: true
 ---
 
 ### Wat doet goed ademen voor jou?
@@ -21,7 +22,7 @@ Ik merk met regelmaat dat de mensen waarmee ik in gesprek ben zich niet bewust z
 
 0. Kennismakingsgesprek
 1. Ademanalyse: hoe gebruik jij jouw ademhalingssysteem.
-2. Drie tot vijf sessies van 1,5 uur
+2. drie tot zes sessies van 1,5 uur
 3. Ademtraining met/of andere interventie
 4. Oefeningen om ademhaling blijvend te verbeteren
 

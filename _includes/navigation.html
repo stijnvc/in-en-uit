@@ -18,13 +18,15 @@
   <div class="pages">
     <a class="home" href="/"><span>Home<span></a>
     {% for item in site.paginas %}
+      {% if item.navigation %}
       <a class="{{ item.permalink }}" href="{{ item.url | prepend: site.baseurl }}"><span>{{ item.title }}</span></a>
+      {% endif %}
     {% endfor %}
   </div>
   <hr>
   <div class="contact">
     In & Uit ademtraining en coaching<br>
-    ademtraining@in-en-uit.nl<br>
+    ademtraining@in-en-uit.net<br>
     +31 (0)6 143 096 03<br>
     Onsenoort 2 <br>
     5071 KK, Udenhout

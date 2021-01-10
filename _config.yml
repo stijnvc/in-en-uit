@@ -1,12 +1,12 @@
 
 # The name of your website.
-name: In en Uit — Ademtraining / NLP / Systemisch coaching
+name: In & Uit ademtraining en coaching
 
-description: In en Uit — Ademtraining / NLP / Systemisch coaching
+description: In & Uit ademtraining helpt mensen naar een fitter, ontspannen en energieker leven. Meer ademruimte is meer leefruimte.
 
 # The URL of the homepage of your site (without trailing slash). Leave this
 # empty when you run Jekyll locally.
-url: https://in-en-uit.stijn.vc
+url: https://www.in-en-uit.net
 baseurl: ""
 
 collections:

@@ -2,6 +2,7 @@
 title: Systemisch coaching
 permalink: systemisch-coaching
 cover-image: bij.jpg
+navigation: true
 ---
 
 
